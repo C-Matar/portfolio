@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import conformerImg from "@/public/conformer.png";
+import violetImg from "@/public/violet1.jpg";
+import wipImg from "@/public/wip.jpg";
 
 export const links = [
   {
@@ -35,55 +35,54 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "AI/ML Engineer Intern",
+    location: "Boston, MA (Remote)",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Interned with Violet Therapeutics (based in Boston). Worked on ML-Driven Biomarker Discovery and Drug Target Prioritization Project. End-to-end development of an ML pipeline for biomarker discovery and drug target prioritization in multiple sclerosis using scRNA-seq data. Identified DEGs across disease states. Integrated Scanpy and Seurat for robust cross-platform analysis and cell-type annotation. Developed and trained Ridge, Lasso, and ANN models, achieving  95% accuracy for chronic active and 97% for chronic inactive MS classification. Built an end-to-end framework to prioritize druggable gene targets, incorporating GSEApy and CMAP-based drug repurposing. Validated key biomarkers on external datasets.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "January 2025 - June 2025",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Master of Molecular Science and Software Engineering | UC Berkeley",
+    location: "Berkeley, CA",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "GPA: 3.9/4.0",
+    icon: React.createElement(LuGraduationCap),
+    date: "May 2025",
+  },
+  {
+    title: "B.A. Molecular and Cell Biology | UC Berkeley",
+    location: "Berkeley, CA",
+    icon: React.createElement(LuGraduationCap),
+    date: "May 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "ML Conformer Energy Prediction",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      " Worked in a team of two to build a C++ neural network model to predict molecular conformer energies using atomic pairwise potentials.",
+    tags: ["C++", "Python", "NumPy", "Pandas", "Matplotlib", "HDF5"],
+    imageUrl: conformerImg,
   },
   {
-    title: "rmtDev",
+    title: "ML-Driven Biomarker Discovery and Drug Target Prioritization",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Developed an ML pipeline for biomarker discovery and drug target prioritization in MS (Code unavailable to public :/ ).",
+    tags: ["Python", "R", "PyTorch", "Scikit-learn","GSEApy"],
+    imageUrl: violetImg,
   },
   {
-    title: "Word Analytics",
+    title: "Generative Radiological Image Captioning via Encoder-Decoder Architecture",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Under Construction!",
+    tags: ["PyTorch", "CNN", "RNN", "NLP"],
+    imageUrl: wipImg,
   },
 ] as const;
 
+/*
 export const skillsData = [
   "HTML",
   "CSS",
@@ -105,3 +104,59 @@ export const skillsData = [
   "Django",
   "Framer Motion",
 ] as const;
+*/
+
+export const skillsData = {
+  languages: [
+    { name: "Python", tier: "🛠️ Proficient" },
+    { name: "SQL", tier: "🛠️ Proficient" },
+    { name: "R", tier: "📘 Familiar" },
+    { name: "C++", tier: "📘 Familiar" },
+  ],
+  developmentTools: [
+    { name: "Git", tier: "🛠️ Proficient" },
+    { name: "Github", tier: "🛠️ Proficient" },
+    { name: "Docker", tier: "🛠️ Proficient" },
+    { name: "Jupyter", tier: "🛠️ Proficient" },
+    { name: "Linux", tier: "🛠️ Proficient" },
+    { name: "VS Code", tier: "🛠️ Proficient" },
+    { name: "Bash", tier: "📘 Familiar" },
+    { name: "Powershell", tier: "📘 Familiar" },
+    { name: "Kubernetes", tier: "🌱 Learning" },
+    { name: "AWS", tier: "🌱 Learning" },
+  ],
+  mlFrameworks: [
+    { name: "PyTorch", tier: "🛠️ Proficient" },
+    { name: "Scikit-learn", tier: "🛠️ Proficient" },
+    { name: "Tensorflow", tier: "📘 Familiar" },
+    { name: "Keras", tier: "📘 Familiar" },
+    { name: "Torchvision", tier: "📘 Familiar" },
+  ],
+  visualizationTools: [
+    { name: "Matplotlib", tier: "🛠️ Proficient" },
+    { name: "Seaborn", tier: "🛠️ Proficient" },
+    { name: "Scikit-image", tier: "📘 Familiar" },
+    { name: "OpenCV", tier: "📘 Familiar" },
+    { name: "TensorBoard", tier: "📘 Familiar" },
+    { name: "UMAP", tier: "📘 Familiar" },
+    { name: "Plotly", tier: "📘 Familiar" },
+  ],
+  scientificComputing: [
+    { name: "Pandas", tier: "🛠️ Proficient" },
+    { name: "NumPy", tier: "🛠️ Proficient" },
+    { name: "ScanPy", tier: "📘 Familiar" },
+    { name: "Seurat", tier: "📘 Familiar" },
+    { name: "RDKit", tier: "📘 Familiar" },
+    { name: "GSEApy", tier: "📘 Familiar" },
+    { name: "SciPy", tier: "📘 Familiar" },
+    { name: "Biopython", tier: "📘 Familiar" },
+    { name: "CMAP", tier: "🌱 Learning" },
+  ],
+  hpcTools: [
+    { name: "OpenMP", tier: "📘 Familiar" },
+    { name: "MPI", tier: "🌱 Learning" },
+    { name: "CUDA", tier: "🌱 Learning" },
+  ],
+};
+
+

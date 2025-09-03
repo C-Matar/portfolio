@@ -17,32 +17,52 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>About Me</SectionHeading>
+      
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+        <span className="font-semibold">
+          During my undergraduate studies at UC Berkeley
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        , I was surrounded by incredibly talented peers and mentors and introduced
+        to the power of computational biology. I became inspired to explore how{" "}
+        <span className="italic font-medium">machine learning</span> could uncover
+        patterns in biological data and advance biomedical research. This
+        motivation led me to pursue a{" "}
+        <span className="font-semibold">Master’s in Molecular Science and Software Engineering</span>, 
+        at <span className="font-bold">UC Berkeley</span>, where I focused on applying machine learning to real-world biomedical
+        challenges such as{" "}
+        <span className="font-medium">
+          identifying biomarkers, predicting molecular behavior, and developing
+          tools for drug discovery
+        </span>
+        .
+        <br />
+        <br />
+        My <span className="font-bold">core stack</span> includes{" "}
+        <span className="font-medium">
+          Python, SQL, PyTorch, TensorFlow
+        </span>
+        , and bioinformatics platforms like{" "}
+        <span className="font-medium">Scanpy</span>. I am also familiar with{" "}
+        <span className="italic">R and C++</span>, and I am always eager to learn
+        new technologies. As a{" "}
+        <span className="font-semibold">recent graduate</span>, I am excited to
+        leverage my{" "}
+        <span className="font-medium">scientific background and technical skills</span>{" "}
+        to contribute to meaningful, interdisciplinary work in biotechnology and
+        research. I am currently {" "}
+        <span className="font-bold">seeking a full-time position</span> as a software
+        engineer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic font-semibold">Outside of coding</span>, I enjoy
+        spending time outdoors—whether{" "}
+        hiking, playing pickleball, or soccer.
+        I also enjoy{" "}
+        playing video games, watching movies,
+        and spending time with my dog,{" "}
+        Onix.
       </p>
     </motion.section>
   );
