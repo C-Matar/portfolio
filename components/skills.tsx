@@ -63,9 +63,6 @@ export default function Skills() {
                     {skill.tier}
                   </span>
                 </div>
-                <div className="text-sm text-gray-500 dark:text-white/50 italic">
-                  {skill.usage}
-                </div>
               </motion.li>
             ))}
           </ul>
