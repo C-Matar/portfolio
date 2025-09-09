@@ -53,6 +53,7 @@ export const experiencesData = [
   {
     title: "B.A. Molecular and Cell Biology | UC Berkeley",
     location: "Berkeley, CA",
+    description: "Focus on Cell Biology, Development & Physiology",
     icon: React.createElement(LuGraduationCap),
     date: "May 2023",
   },
