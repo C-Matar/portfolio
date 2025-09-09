@@ -37,16 +37,14 @@ export const experiencesData = [
   {
     title: "AI/ML Engineer Intern",
     location: "Boston, MA (Remote)",
-    description:
-      "Interned with Violet Therapeutics (based in Boston). Worked on ML-Driven Biomarker Discovery and Drug Target Prioritization Project. End-to-end development of an ML pipeline for biomarker discovery and drug target prioritization in multiple sclerosis using scRNA-seq data. Identified DEGs across disease states. Integrated Scanpy and Seurat for robust cross-platform analysis and cell-type annotation. Developed and trained Ridge, Lasso, and ANN models, achieving  95% accuracy for chronic active and 97% for chronic inactive MS classification. Built an end-to-end framework to prioritize druggable gene targets, incorporating GSEApy and CMAP-based drug repurposing. Validated key biomarkers on external datasets.",
+    description: "Interned with Violet Therapeutics (based in Boston). Worked on ML-Driven Biomarker Discovery and Drug Target Prioritization Project. End-to-end development of an ML pipeline for biomarker discovery and drug target prioritization in multiple sclerosis using scRNA-seq data. Identified DEGs across disease states. Integrated Scanpy and Seurat for robust cross-platform analysis and cell-type annotation. Developed and trained Ridge, Lasso, and ANN models, achieving  95% accuracy for chronic active and 97% for chronic inactive MS classification. Built an end-to-end framework to prioritize druggable gene targets, incorporating GSEApy and CMAP-based drug repurposing. Validated key biomarkers on external datasets.",
     icon: React.createElement(CgWorkAlt),
     date: "January 2025 - June 2025",
   },
   {
     title: "Master of Molecular Science and Software Engineering | UC Berkeley",
     location: "Berkeley, CA",
-    description:
-      "GPA: 3.9/4.0",
+    description: "GPA: 3.9/4.0",
     icon: React.createElement(LuGraduationCap),
     date: "May 2025",
   },
@@ -62,22 +60,19 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "ML Conformer Energy Prediction",
-    description:
-      " Worked in a team of two to build a C++ neural network model to predict molecular conformer energies using atomic pairwise potentials.",
+    description: " Worked in a team of two to build a C++ neural network model to predict molecular conformer energies using atomic pairwise potentials.",
     tags: ["C++", "Python", "NumPy", "Pandas", "Matplotlib", "HDF5"],
     imageUrl: conformerImg,
   },
   {
     title: "ML-Driven Biomarker Discovery and Drug Target Prioritization",
-    description:
-      "Developed an ML pipeline for biomarker discovery and drug target prioritization in MS (Code unavailable to public :/ ).",
+    description: "Developed an ML pipeline for biomarker discovery and drug target prioritization in MS (Code unavailable to public :/ ).",
     tags: ["Python", "R", "PyTorch", "Scikit-learn","GSEApy"],
     imageUrl: violetImg,
   },
   {
     title: "Generative Radiological Image Captioning via Encoder-Decoder Architecture",
-    description:
-      "Under Construction!",
+    description: "Under Construction!",
     tags: ["PyTorch", "CNN", "RNN", "NLP"],
     imageUrl: wipImg,
   },
