@@ -28,7 +28,7 @@ export default function About() {
         <span className="italic font-medium">machine learning</span> could uncover
         patterns in biological data and advance biomedical research. This
         motivation led me to pursue a{" "}
-        <span className="font-semibold">Master’s in Molecular Science and Software Engineering</span>, 
+        <span className="font-semibold">Master’s in Molecular Science and Software Engineering {" "}</span> 
         at <span className="font-bold">UC Berkeley</span>, where I focused on applying machine learning to real-world biomedical
         challenges such as{" "}
         <span className="font-medium">

@@ -66,7 +66,7 @@ export const projectsData = [
   },
   {
     title: "ML-Driven Biomarker Discovery and Drug Target Prioritization",
-    description: "Developed an ML pipeline for biomarker discovery and drug target prioritization in MS (Code unavailable to public :/ ).",
+    description: "Developed an ML pipeline for biomarker discovery and drug target prioritization in MS.",
     tags: ["Python", "R", "PyTorch", "Scikit-learn","GSEApy"],
     imageUrl: violetImg,
   },
@@ -111,7 +111,7 @@ export const skillsData = {
   ],
   developmentTools: [
     { name: "Git", tier: "🛠️ Proficient" },
-    { name: "Github", tier: "🛠️ Proficient" },
+    { name: "GitHub", tier: "🛠️ Proficient" },
     { name: "Docker", tier: "🛠️ Proficient" },
     { name: "Jupyter", tier: "🛠️ Proficient" },
     { name: "Linux", tier: "🛠️ Proficient" },
@@ -124,7 +124,7 @@ export const skillsData = {
   mlFrameworks: [
     { name: "PyTorch", tier: "🛠️ Proficient" },
     { name: "Scikit-learn", tier: "🛠️ Proficient" },
-    { name: "Tensorflow", tier: "📘 Familiar" },
+    { name: "TensorFlow", tier: "📘 Familiar" },
     { name: "Keras", tier: "📘 Familiar" },
     { name: "Torchvision", tier: "📘 Familiar" },
   ],
@@ -140,7 +140,7 @@ export const skillsData = {
   scientificComputing: [
     { name: "Pandas", tier: "🛠️ Proficient" },
     { name: "NumPy", tier: "🛠️ Proficient" },
-    { name: "ScanPy", tier: "📘 Familiar" },
+    { name: "Scanpy", tier: "📘 Familiar" },
     { name: "Seurat", tier: "📘 Familiar" },
     { name: "RDKit", tier: "📘 Familiar" },
     { name: "GSEApy", tier: "📘 Familiar" },
